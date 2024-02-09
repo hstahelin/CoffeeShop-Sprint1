@@ -1,0 +1,78 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #393939;
+}
+
+h3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+  color: #393939;
+}
+
+header,
+footer {
+  background-color: #fff0ed;
+}
+
+.header {
+  padding: 1rem 0;
+}
+.logo {
+  display: inline-block;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.logo__image,
+.social__logo--facebook,
+.social__logo--instagram,
+.social__logo--yelp {
+  width: 3.125em;
+  margin-bottom: 0;
+  vertical-align: bottom;
+}
+
+.logo__name {
+  font-size: 2.0625rem;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: inline-block;
+}
+
+.site-nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.site-nav__item {
+  margin-left: 2em;
+}
+
+.site-nav__anchor {
+  text-decoration: none;
+  color: #393939;
+  font-size: 1.3125rem;
+}
+
+.site-nav__anchor--active {
+  color: #5bacc3;
+}
+
+.discount__text--bold,
+.contact__detail--bold {
+  font-weight: 700;
+}
